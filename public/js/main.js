@@ -444,7 +444,7 @@ function initContactForm() {
             // Show error message
             if (formStatus) {
                 formStatus.className = 'error';
-                formStatus.textContent = 'There was a problem sending your message. Please try again later.';
+                formStatus.textContent = 'This service is temporarily unavailable .';
             }
         }
     });
